@@ -41,6 +41,38 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="ScrollingHomeWork.ScrollingHomeWork">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="TwoActivitiesHomeWork.TwoActivitiesHomeWork1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="TwoActivitiesHomeWork.TwoActivitiesHomeWork2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="ActivityLifecycleHomeWork.ActivityLifecycleHomeWork">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="TwoActivities.MainActivityFirst">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

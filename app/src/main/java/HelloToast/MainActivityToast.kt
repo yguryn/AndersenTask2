@@ -26,4 +26,6 @@ class MainActivityToast : AppCompatActivity() {
         mCount++
         mShowCount.text = mCount.toString()
     }
+
+    fun resetZero(view: View) {}
 }
