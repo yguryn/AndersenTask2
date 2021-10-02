@@ -13,7 +13,7 @@ class ActivityLifecycleHomeWork :AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_lifecycle_home_work)
         tvCount = findViewById(R.id.count_textView)
         if (savedInstanceState != null) {
             val i = savedInstanceState.getString("count_value")
